@@ -26,7 +26,7 @@ def main():
             robot_state = sim_interface.localize_robot()
             
             #Set goal state
-            goal_state = [1.0, 1.0, np.pi/2.0]
+            goal_state = [0.0, 1.0, -np.pi/4.0]
             
             while not control.at_goal(goal_state):
                 print("Robot state:", sim_interface.localize_robot())
