@@ -1,4 +1,4 @@
-# mobile_robot_sim_setup
+# Youbot_sim_setup
 Setup for simulating Youbot in Coppleiasim(V-REP)
 
 ## Setup:
